@@ -21,16 +21,16 @@ namespace ListManipulation
                 {
                     case "add":
                         nums.Add(int.Parse(cmd[1]));
+                        break;
+
+                    case "remove":
+                        nums.Remove(int.Parse(cmd[1]));
+                        break;
+
+                    case "print":
                         Console.WriteLine(string.Join(" ", nums));
                         break;
-                   case "delete":
-                        //TODO
-                        break;
-                    case "remove":
-                        //TODO
-                        break;
-                   
-                        //TODO
+
 
                     default:
                         break;
