@@ -23,14 +23,24 @@ namespace ListManipulation
                         nums.Add(int.Parse(cmd[1]));
                         Console.WriteLine(string.Join(" ", nums));
                         break;
-                   case "delete":
+                    case "delete":
                         //TODO
+                        nums.Remove(nums[1]);
                         break;
                     case "remove":
                         //TODO
                         break;
-                   
-                        //TODO
+
+                    case "print":
+                        {
+                            Console.WriteLine(string.Join(" ", nums));
+                            break;
+                        }
+                    case "printodds":
+                        {
+                            Console.WriteLine(string.Join(" ", nums.Where(n => n % 2 == 1)));
+                        }
+                        break;
 
                     default:
                         break;
