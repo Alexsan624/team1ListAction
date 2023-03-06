@@ -24,12 +24,16 @@ namespace ListManipulation
                         Console.WriteLine(string.Join(" ", nums));
                         break;
                    case "delete":
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5101867bf9f97615ab8ed37c98db20a9b91c746
                         //TODO
                         break;
                     case "remove":
                         //TODO
                         break;
+<<<<<<< HEAD
                     case "countodds":
                         foreach (var n in nums)
                         {
@@ -42,6 +46,9 @@ namespace ListManipulation
                             
                         }
                         break;
+=======
+                   
+>>>>>>> a5101867bf9f97615ab8ed37c98db20a9b91c746
                         //TODO
 
                     default:
